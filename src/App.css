@@ -1,0 +1,45 @@
+.container{
+  width: 250px;
+  height:300px;
+  /* background-color: blue; */
+  text-align: center;
+  display: inline-block;
+  border: solid;
+  border-color: black;
+  padding: 2%;
+  margin-top: 2%;
+  margin-left: 1%;
+}
+.serial{
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border-style: solid;
+  border-color: black;
+}
+.name{
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  width: 200px;
+  height:20px;
+}
+.type{
+  text-align: center;
+  width: 200px;
+  height:20px;
+}
+.desc{
+  width: 220px;
+  height:50px;
+}
+img{
+  margin-top: 1.5%;
+  width: 150px;
+  height: 200px;
+  object-fit: contain;
+}
+
+.container:hover{
+  transform: scale(1.1);
+}

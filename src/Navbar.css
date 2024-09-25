@@ -1,0 +1,17 @@
+.bigd{
+    margin-top: 1%;
+    height: 30px;
+    text-align: center;
+}
+.smalld{
+    display: inline;
+    margin-left: 2%;
+    border: solid;
+    border-color: black;
+    cursor: pointer;
+    
+}
+.smalld:hover{
+    background-color: greenyellow;
+    transform: scale(1.2);
+}
